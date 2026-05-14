@@ -1,9 +1,9 @@
 module github.com/grafana/grafana/apps/dashboard
 
-go 1.24.4
+go 1.25.0
 
 require (
-	cuelang.org/go v0.11.1
+	cuelang.org/go v0.16.1
 	github.com/grafana/grafana-app-sdk v0.39.0
 	github.com/grafana/grafana-plugin-sdk-go v0.278.0
 	github.com/grafana/grafana/pkg/apimachinery v0.0.0-20250514132646-acbc7b54ed9e
@@ -25,6 +25,7 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/elazarl/goproxy v1.7.2 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
+	github.com/emicklei/proto v1.14.3 // indirect
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
@@ -66,6 +67,7 @@ require (
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
@@ -74,7 +76,7 @@ require (
 	github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
-	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
@@ -82,6 +84,7 @@ require (
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.64.0 // indirect
 	github.com/prometheus/procfs v0.16.1 // indirect
+	github.com/protocolbuffers/txtpbfmt v0.0.0-20260217160748-a481f6a22f94 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/smartystreets/goconvey v1.6.4 // indirect
@@ -105,16 +108,18 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.36.0 // indirect
 	go.opentelemetry.io/otel/trace v1.36.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.6.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/exp v0.0.0-20250506013437-ce4c2cf36ca6 // indirect
-	golang.org/x/mod v0.25.0 // indirect
-	golang.org/x/net v0.41.0 // indirect
-	golang.org/x/oauth2 v0.30.0 // indirect
-	golang.org/x/sync v0.15.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/term v0.32.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
+	golang.org/x/mod v0.34.0 // indirect
+	golang.org/x/net v0.52.0 // indirect
+	golang.org/x/oauth2 v0.36.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/telemetry v0.0.0-20260311193753-579e4da9a98c // indirect
+	golang.org/x/term v0.41.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
-	golang.org/x/tools v0.34.0 // indirect
+	golang.org/x/tools v0.43.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250519155744-55703ea1f237 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250519155744-55703ea1f237 // indirect
